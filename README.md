@@ -41,16 +41,15 @@ const columns = useMemo(
 
 
 ### data to show in table
- const data = useMemo(
-    () => [
+
+  const data1 = [
       { id: 1, name: 'John Doe', age: 28, email: 'john@example.com' },
       { id: 2, name: 'Jane Doe', age: 22, email: 'jane@example.com' },
       { id: 3, name: 'Alice Smith', age: 34, email: 'alice@example.com' },
       { id: 4, name: 'Bob Johnson', age: 45, email: 'bob@example.com' },
       // Add more rows as needed
-    ],
-    []
-  );
+  ]
+  const [data,setData] = useState(data1)
 
 
 ### function to handle button edit, View and Delete 
