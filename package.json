@@ -14,5 +14,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/naroji18/newDTPackage/issues"
-  }, "homepage": "https://github.com/naroji18/newDTPackage#readme"
+  },
+  "homepage": "https://github.com/naroji18/newDTPackage#readme",
+  "dependencies": {
+    "react-icons": "^5.2.1"
+  }
 }
