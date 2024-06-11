@@ -2,8 +2,9 @@
 import DataTableTest from 'newdtpackage/src/Components/DataTable/DataTableTest';
 
 
-# add this component and import it
-  <DataTableTest
+## add this component and import it
+
+      <DataTableTest
         columns={columns}
         data={data}
         onView={handleView}
