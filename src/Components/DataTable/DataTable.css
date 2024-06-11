@@ -1,0 +1,52 @@
+/* src/components/DataTable.css */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  color: #000;
+}
+
+.table th,
+.table td {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  cursor: pointer;
+  color: #000;
+}
+
+.table th input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.pagination button,
+.pagination select {
+  margin: 0 4px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.searchInputField{
+  background: #fff;
+  color: #000;
+}
+.displayButtonClass{
+  display: flex;
+  gap: 0.5rem;
+}
